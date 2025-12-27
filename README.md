@@ -1,5 +1,16 @@
 # Offline Tile Server Architecture Documentation
+# Offline Tile Server Architecture Documentation
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![TileServer-GL](https://img.shields.io/badge/TileServer--GL-latest-orange.svg)](https://github.com/maptiler/tileserver-gl)
+[![Docker](https://img.shields.io/badge/Docker-required-blue.svg)](https://www.docker.com/)
+[![OpenMapTiles](https://img.shields.io/badge/OpenMapTiles-v3.x-green.svg)](https://openmaptiles.org/)
+[![OSM](https://img.shields.io/badge/OpenStreetMap-data-brightgreen.svg)](https://www.openstreetmap.org/)
+[![Offline](https://img.shields.io/badge/Internet-Not%20Required-red.svg)]()
+[![Vector Tiles](https://img.shields.io/badge/Vector%20Tiles-PBF-purple.svg)]()
+[![Raster Tiles](https://img.shields.io/badge/Raster%20Tiles-PNG-yellow.svg)]()
+
+> **Self-hosted, offline-capable tile server for serving OpenStreetMap vector and raster tiles**  
 ## Table of Contents
 
 ### Core Documentation
