@@ -1,18 +1,22 @@
 {
   "options": {
+    "cors": true,
     "paths": {
-      "root": "./",
-      "fonts": "/data/fonts"
-    }
-  },
-  "data": {
-    "new-tx": {
-      "mbtiles": "/data/new-tx.mbtiles"
+      "root": "/data",
+      "fonts": "fonts",
+      "styles": ".",
+      "mbtiles": "."
     }
   },
   "styles": {
     "new-tx": {
-      "style": "/data/style.json"
+      "style": "style.json",
+      "serve_data": true
+    }
+  },
+  "data": {
+    "new-tx": {
+      "mbtiles": "new-tx.mbtiles"
     }
   }
 }
