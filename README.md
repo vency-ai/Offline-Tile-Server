@@ -1,6 +1,4 @@
 # Offline Tile Server Architecture Documentation
-# Offline Tile Server Architecture Documentation
-
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![TileServer-GL](https://img.shields.io/badge/TileServer--GL-latest-orange.svg)](https://github.com/maptiler/tileserver-gl)
 [![Docker](https://img.shields.io/badge/Docker-required-blue.svg)](https://www.docker.com/)
