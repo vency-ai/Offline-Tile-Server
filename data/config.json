@@ -1,0 +1,18 @@
+{
+  "options": {
+    "paths": {
+      "root": "./",
+      "fonts": "/data/fonts"
+    }
+  },
+  "data": {
+    "new-tx": {
+      "mbtiles": "/data/new-tx.mbtiles"
+    }
+  },
+  "styles": {
+    "new-tx": {
+      "style": "/data/style.json"
+    }
+  }
+}

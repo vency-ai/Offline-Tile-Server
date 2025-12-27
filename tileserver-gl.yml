@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  tileserver-gl:
+    image: maptiler/tileserver-gl
+    command: >
+      --mbtiles /data/new-tx.mbtiles
+      --public_url http://10.204.16.6:8080
+      --verbose
+    container_name: tileserver-gl
+    ports:
+      - "8080:8080"
+    environment:
+      - ENABLE_CORS=true
+    volumes:
+      - ./data:/data
+    user: "${UID}:${GID}"
+    restart: unless-stopped
